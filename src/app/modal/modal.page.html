@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>modal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-item>
+  {{nombre|json}}
+</ion-item>
+<ion-item>
+  {{nombre.nombre}}
+</ion-item>
+<ion-button (click)="dismiss()">Close</ion-button>
+</ion-content>
